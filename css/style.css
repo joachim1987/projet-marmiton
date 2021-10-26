@@ -1,0 +1,106 @@
+/* COMMON RULES */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #efefef;
+}
+
+.container {
+  width: 1024px;
+  /* border: black solid 2px; */
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  height: 80px;
+  background-color: white;
+  border-bottom: #f3735f 2px solid;
+}
+
+header img {
+  height: 30px;
+  margin-top: 25px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  color: purple;
+  text-align: center;
+}
+
+h2 {
+  color: orange;
+  font-size: 30px;
+}
+
+/* MAIN */
+
+section {
+  background-color: #fff;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 60px 30px;
+}
+
+.baseline {
+  text-align: center;
+  line-height: 40px;
+}
+
+.time {
+  background-color: rgb(96, 96, 167);
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.time p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.images {
+  margin: 50px 0;
+}
+
+.images img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.middle-img {
+  margin: 0 32px;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 30px;
+  line-height: 40px;
+}
+
+footer p {
+  text-align: center;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+ul li:last-child {
+  margin-bottom: 20px;
+}
